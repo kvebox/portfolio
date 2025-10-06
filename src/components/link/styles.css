@@ -1,0 +1,33 @@
+.link-background {
+    padding: 0.5rem;
+    background-color: whitesmoke;
+    border-radius: 0.5rem;
+}
+
+.link-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0rem 1.5rem;
+}
+
+.link-title {
+    color: white;
+    letter-spacing: 0.25rem;
+    text-align: left;
+}
+
+.link {
+    margin-bottom: 0.75rem;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.link-icon {
+    max-height: 2rem;
+    max-width: 2rem;
+    height: 15%;
+    width: 15%;
+}

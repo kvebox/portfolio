@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  background: #040B18;
+}
+
+#links {
+  width: 75vw;
+  max-width: 25rem;
+}
+
+.cover {
+  height: auto;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(7px + 1vmin);
+}
