@@ -1,6 +1,5 @@
 .link-background {
     padding: 0.5rem;
-    background-color: whitesmoke;
     border-radius: 0.5rem;
 }
 
@@ -9,6 +8,7 @@
     align-items: center;
     justify-content: space-between;
     margin: 0rem 1.5rem;
+    max-height: 5rem;
 }
 
 .link-title {
@@ -22,6 +22,10 @@
 
     a {
         text-decoration: none;
+    }
+
+    :hover{
+        background-color: black;
     }
 }
 
