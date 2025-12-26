@@ -2,9 +2,9 @@ import './styles.css';
 
 interface LinkProps {
     title: string;
-    linkTo: string;
+    linkTo?: string;
     color: string;
-    hover: string;
+    hover?: string;
     icon: string;
 }
 

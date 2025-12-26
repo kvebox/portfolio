@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { LinkTree } from './pages/linktree';
+import { LinkTree } from './pages/linktree.tsx';
+import { Portfolio } from './pages/portfolio.tsx';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router"
 
@@ -12,7 +13,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route index element={<LinkTree/>}/>
-        {/* <Route path="portfolio" element={<Portfolio/>} /> */}
+        <Route path="portfolio" element={<Portfolio/>} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
