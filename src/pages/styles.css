@@ -17,7 +17,7 @@
   align-items: center;
   overflow: hidden;
   height: 15rem;
-  margin-bottom: 5rem;
+  margin-bottom: 2.5rem;
 }
 
 .cover img {
@@ -32,4 +32,10 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 0.25vmin);
+}
+
+#pen_container {
+  width: 500px;
+  height: 500px;
+  position: relative;
 }

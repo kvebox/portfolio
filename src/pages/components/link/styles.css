@@ -29,6 +29,11 @@
     }
 }
 
+.link svg {
+    color: white;
+    fill: white;
+}
+
 .link-icon {
     max-height: 2rem;
     max-width: 2rem;
