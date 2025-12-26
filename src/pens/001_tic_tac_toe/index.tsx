@@ -73,7 +73,6 @@ const checkWin = (grid: number[][], setGameOver: React.Dispatch<React.SetStateAc
             }
 
             if (j === grid[0].length - i - 1) {
-                console.log("!!", i, j)
                 n += grid[i][j]
             }
         }
