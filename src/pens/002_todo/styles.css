@@ -1,0 +1,9 @@
+#task-list {
+    background: #FFE9D1;
+    height: 100%;
+    width: 100%;
+}
+
+.task {
+    border-bottom: 1px solid #FFB798;
+}

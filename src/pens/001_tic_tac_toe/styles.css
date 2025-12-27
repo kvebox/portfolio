@@ -1,6 +1,6 @@
 #grid {
-    height: 500px;
-    width: 500px;
+    height: 100%;
+    width: 100%;
     border: 1px solid white;
     display: flex;
     flex-direction: column;
@@ -14,6 +14,7 @@
     align-items: center;
     justify-content: center;
     font-size: 100px;
+    background: rgba(4,11,24,0.95)
 }
 
 .row {
